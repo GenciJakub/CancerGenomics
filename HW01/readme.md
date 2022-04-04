@@ -95,3 +95,5 @@ NC_045512.2	29688	.	G	T
 NC_045512.2	29837	.	C	T
 
 ```
+
+We can try to detect the strain of the virus only by S protein variants. After uploading this looooong table to VEP, we can filter by `Symbol is S` to see only S protein variants. There are five of them: G446S, S477N, T478K, E484A and Q493R. 
