@@ -96,4 +96,6 @@ NC_045512.2	29837	.	C	T
 
 ```
 
-We can try to detect the strain of the virus only by S protein variants. After uploading this looooong table to VEP, we can filter by `Symbol is S` to see only S protein variants. There are five of them: G446S, S477N, T478K, E484A and Q493R. 
+We can try to detect the variant of the virus only by S protein variants. After uploading this looooong table to [VEP](https://covid-19.ensembl.org/info/docs/tools/vep/index.html) and running the job, we can filter by *Symbol is S* to see only S protein variants. There are five of them in our data: G446S, S477N, T478K, E484A and Q493R. When we look at [outbreak.info](https://outbreak.info/compare-lineages), we can see that three of these mutations are almost exclusive to the omicron variant.
+
+It seems that our reads are most probably from the omicron variant of the SARS-CoV-2 virus.
