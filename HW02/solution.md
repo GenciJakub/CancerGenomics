@@ -39,3 +39,5 @@ After this, we obtain these graphs:
 ![Tumor sample](tumor.png)
 
 ![Wildtype sample](wildtype.png)
+
+We can see that there are some extreme values in the wildtype (non-tumor) sample. This is probably an artifact of PCR.
